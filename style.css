@@ -1,0 +1,41 @@
+
+body {
+    background-image: url("abstract-blur-hotel-interior.jpg");
+ background-color: #cccccc;
+    ;
+  }
+  h1 {text-align: center;
+    font-size: 50px;
+    font-family: "	Brush Script MT", Cursive;
+    color: #0a043c;   
+}
+h2 
+    {text-align: center;
+        font-size: 25px;
+        font-family: "	Brush Script MT", Cursive;
+        color: white;   
+}
+
+li{
+    display: inline-block;
+    border: 2.5px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: wheat;    
+   
+    
+}
+img {
+    width: 1350px;
+    border-radius: 20px;
+}
+
+h4 {text-align: center;
+    font-size: 40px;
+    font-family: "	Brush Script MT", Cursive;
+    color: #3e30c5;   
+
+}
+p {text-align: center;
+    font-size: 25px;
+    font-family: "	Brush Script MT", Cursive;
+    color: #0a043c;   
