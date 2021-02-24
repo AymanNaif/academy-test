@@ -40,3 +40,24 @@ if (color === pagecolor ) {
 } else {
     console.log ("Hint: the sky look beauty")
 }
+
+
+function yourAge1(currentYear,birthYear){
+    var old=parseInt(currentYear)-parseInt(birthYear);
+    alert("Your Age is "+old);
+}
+var coun=0;
+var currentYear=0;
+var birthYear=0;
+
+while (coun<2){
+    if (coun==0){
+        currentYear=prompt("calculate your Age , please enter current year:");
+
+    } else {
+        birthYear=prompt("please enter year that you born:");
+
+    }
+    coun+=1;
+}
+yourAge1(currentYear,birthYear);
